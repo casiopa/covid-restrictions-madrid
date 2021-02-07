@@ -2,11 +2,43 @@
   "Algete" : [
     "Algete",
     "Cobeña"
-  ],
+    ],
   "Buitrago de Lozoya" : [
-    "Buitrago de Lozoya",
+    "Buitrago del Lozoya",
     "La Acebeda",
     "Braojos",
-    "Gascones"
-  ]
+    "Gascones",
+    "La Hiruela",
+    "Horcajo de la Sierra",
+    "Horcajuelo de la Sierra",
+    "Madarcos",
+    "Montejo de la Sierra",
+    "Navarredonda",
+    "Piñuecar",
+    "Prádena del Rincón",
+    "Puebla de la Sierra",
+    "Robregordo",
+    "Serna del Monte",
+    "Somosierra",
+    "Villavieja de Lozoya",
+    "Gargantilla de Lozoya",
+    "Cervera de Buitrago",
+    "Robledillo del Jara",
+    "Puentes Viejas",
+    "Berzosa del Lozoya"
+    ],
+  "Cadalso de los Vidrios" : [
+    "Cadalso de los Vidrios",
+    "Rozas del Puerto Real",
+    "Cenicientos"
+    ],
+  "Campo Real" : [
+    "Campo Real",
+    "Valdilecha",
+    "Ambite",
+    "Nuevo Baztán",
+    "Olmeda de las Fuentes",
+    "Pozuelo del Rey",
+    "Villar del Olmo"
+    ]
 }
