@@ -39,15 +39,11 @@ for zbs in json_zbs_childs :
 
     for mun_distr in json_zbs_childs[zbs] :
         cur.execute('SELECT id FROM MunDistr WHERE name = ? LIMIT 1', (mun_distr,))
+        mun_distr_id = cur.fetchone()[0]
         print(mun_distr, zbs)
-        print(cur.fetchone(), zbs_id)
-        temp = cur.fetchone()
-        print(type(temp))
-        mun_distr_id = temp[0]
-        #print(cur.fetchone()[0])
-        #print(type(cur.fetchone()[0]))
-        #cur.execute('''INSERT OR IGNORE INTO MunDistr_fathers (mun_distr_id, zbs_id)
-        #            VALUES (?,?)''', (mun_distr_id, zbs_id))
-        #conn.commit()
+        print(mun_distr_id, zbs_id)
+        cur.execute('''INSERT OR IGNORE INTO MunDistr_fathers (mun_distr_id, zbs_id)
+                    VALUES (?,?)''', (mun_distr_id, zbs_id))
+        conn.commit()
 
 cur.close()

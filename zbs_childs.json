@@ -9,27 +9,27 @@
     "Braojos",
     "Gascones",
     "La Hiruela",
-    "Horcajo de la Sierra",
+    "Horcajo de la Sierra-Aoslos",
     "Horcajuelo de la Sierra",
     "Madarcos",
     "Montejo de la Sierra",
-    "Navarredonda",
-    "Piñuecar",
+    "Navarredonda y San Mamés",
+    "Piñuécar-Gandullas",
     "Prádena del Rincón",
     "Puebla de la Sierra",
     "Robregordo",
-    "Serna del Monte",
+    "La Serna del Monte",
     "Somosierra",
-    "Villavieja de Lozoya",
-    "Gargantilla de Lozoya",
+    "Villavieja del Lozoya",
+    "Gargantilla del Lozoya y Pinilla de Buitrago",
     "Cervera de Buitrago",
-    "Robledillo del Jara",
+    "Robledillo de la Jara",
     "Puentes Viejas",
     "Berzosa del Lozoya"
     ],
   "Cadalso de los Vidrios" : [
     "Cadalso de los Vidrios",
-    "Rozas del Puerto Real",
+    "Rozas de Puerto Real",
     "Cenicientos"
     ],
   "Campo Real" : [
@@ -40,5 +40,75 @@
     "Olmeda de las Fuentes",
     "Pozuelo del Rey",
     "Villar del Olmo"
-    ]
+    ],
+  "Cercedilla" : [
+    "Cercedilla",
+    "Navacerrada",
+    "Los Molinos"
+    ],
+  "Ciempozuelos" : [
+    "Ciempozuelos",
+    "Titulcia"
+    ],
+  "Collado Mediano" : [
+    "Collado Mediano",
+    "Becerril de la Sierra"
+    ],
+  "Colmenar de Oreja" : [
+    "Colmenar de Oreja",
+    "Chinchón",
+    "Valdelaguna",
+    "Villaconejos"
+    ],
+  "Daganzo de Arriba" : [
+    "Ajalvir",
+    "Daganzo de Arriba",
+    "Fresno de Torote",
+    "Ribatejada"
+    ],
+  "El Molar" : [
+    "El Molar",
+    "Pedrezuela",
+    "San Agustín del Guadalix",
+    "El Vellón",
+    "Venturada",
+    "Redueña"
+    ],
+  "Fuente el Saz" : [
+    "Fuente el Saz de Jarama",
+    "Talamanca de Jarama",
+    "Valdeolmos-Alalpardo",
+    "Valdepiélagos",
+    "Valdetorres de Jarama"
+    ],
+  "Galapagar" : [
+    "Galapagar",
+    "Colmenarejo"
+    ],
+  "Griñón" : [
+    "Griñón",
+    "Batres",
+    "Cubas de la Sagra",
+    "Casarrubuelos",
+    "Torrejón de la Calzada",
+    "Torrejón de Velasco",
+    "Serranillos del Valle"
+    ],
+  "Humanes de Madrid" : [
+    "Humanes de Madrid",
+    "Moraleja de Enmedio"
+  ],
+  "La Cabrera" : [
+    "La Cabrera",
+    "El Berrueco",
+    "Cabanillas de la Sierra",
+    "Valdemanco",
+    "Lozoyuela-Navas-Sieteiglesias",
+    "Canencia",
+    "Garganta de los Montes"
+  ],
+  "Manzanares El Real" : [
+    "Manzanares El Real",
+    "El Boalo"
+  ]
 }
