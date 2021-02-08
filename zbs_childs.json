@@ -110,5 +110,103 @@
   "Manzanares El Real" : [
     "Manzanares El Real",
     "El Boalo"
+  ],
+  "Meco" : [
+    "Meco",
+    "Camarma de Esteruelas",
+    "Los Santos de la Humosa",
+    "Valdeavero"
+  ],
+  "Mejorada del Campo" : [
+    "Mejorada del Campo",
+    "Velilla de San Antonio",
+    "Loeches"
+  ],
+  "Navalcarnero" : [
+    "Navalcarnero",
+    "El Álamo",
+    "Villamanta"
+  ],
+  "Navas del Rey" : [
+    "Navas del Rey",
+    "Colmenar del Arroyo",
+    "Chapinería"
+  ],
+  "Perales de Tajuña" : [
+    "Perales de Tajuña",
+    "Carabaña",
+    "Orusco de Tajuña",
+    "Tielmes"
+  ],
+  "Rascafría" : [
+    "Rascafría",
+    "Alameda del Valle",
+    "Lozoya",
+    "Pinilla del Valle"
+  ],
+  "Robledo de Chavela" : [
+    "Robledo de Chavela",
+    "Fresnedillas de la Oliva",
+    "Valdemaqueda",
+    "Navalagamella"
+  ],
+  "San Lorenzo de El Escorial" : [
+    "San Lorenzo de El Escorial",
+    "Santa María de la Alameda",
+    "Zarzalejo"
+  ],
+  "San Martín de Valdeiglesias" : [
+    "San Martín de Valdeiglesias",
+    "Pelayos de la Presa"
+  ],
+  "Sevilla la Nueva" : [
+    "Sevilla la Nueva",
+    "Villamantilla",
+    "Villanueva de Perales"
+  ],
+  "Soto del Real" : [
+    "Soto del Real",
+    "Guadalix de la Sierra",
+    "Navalafuente",
+    "Miraflores de la Sierra",
+    "Bustarviejo"
+  ],
+  "Torrelaguna" : [
+    "Torrelaguna",
+    "El Atazar",
+    "Patones",
+    "Torremocha de Jarama"
+  ],
+  "Torrelodones" : [
+    "Torrelodones",
+    "Hoyo de Manzanares"
+  ],
+  "Torres de la Alameda" : [
+    "Torres de la Alameda",
+    "Corpa",
+    "Pezuela de las Torres",
+    "Valverde de Alcalá",
+    "Villalbilla",
+    "Anchuelo",
+    "Santorcaz"
+  ],
+  "Villa del Prado" : [
+    "Villa del Prado",
+    "Aldea del Fresno"
+  ],
+  "Villanueva de la Cañada" : [
+    "Villanueva de la Cañada",
+    "Brunete",
+    "Quijorna"
+  ],
+  "Villarejo de Salvanés" : [
+    "Villarejo de Salvanés",
+    "Belmonte de Tajo",
+    "Brea de Tajo",
+    "Estremera",
+    "Fuentidueña de Tajo",
+    "Valdaracete",
+    "Villamanrique de Tajo"
   ]
+
 }
