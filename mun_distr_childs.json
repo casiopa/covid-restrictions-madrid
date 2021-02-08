@@ -20,8 +20,14 @@
     "Valdelasfuentes"
     ],
   "Alcorcón": [
-    "Aranjuez",
-    "Las Olivas"
+    "Doctor Laín Entralgo",
+    "Doctor Trueta",
+    "Gregorio Marañón",
+    "La Ribota",
+    "Los Castillos",
+    "Miguel Servet",
+    "Parque Oeste",
+    "Ramón y Cajal"
     ],
   "Aranjuez": [
     "Aranjuez",
@@ -86,29 +92,222 @@
     "Pizarro"
     ],
   "Madrid-Centro":[
-    "Palacio",
-    "Embajadores",
     "Cortes",
+    "Lavapiés",
+    "Alameda",
+    "Segovia",
     "Justicia",
-    "Universidad",
-    "Sol"
+    "Palma Universidad"
     ],
   "Madrid-Arganzuela":[
     "Imperial",
-    "Las Acacias",
-    "La Chopera",
+    "Acacias",
+    "Martín de Vargas",
+    "Chopera",
     "Legazpi",
-    "Las Delicias",
-    "Palos de Moguer",
-    "Atocha"
+    "Méndez Álvaro",
+    "Embajadores"
     ],
   "Madrid-Retiro":[
-    "Pacífico",
     "Adelfas",
-    "La Estrella",
-    "Ibiza",
-    "Los Jerónimos",
-    "Niño Jesús"
-  ]
-
+    "Pacífico",
+    "Estrella",
+    "Ibiza"
+    ],
+  "Madrid-Salamanca":[
+    "Castelló",
+    "Goya",
+    "Londres",
+    "Baviera",
+    "General Oráa",
+    "Montesa"
+    ],
+  "Madrid-Chamartín":[
+    "Segre",
+    "Prosperidad",
+    "Potosí",
+    "Nuñez Morgado"
+    ],
+  "Madrid-Tetuán":[
+    "Villaamil",
+    "Reina Victoria",
+    "General Moscardó",
+    "Infanta Mercedes",
+    "Bustarviejo",
+    "La Ventilla",
+    "Valdeacederas"
+    ],
+  "Madrid-Chamberí":[
+    "Guzmán el Bueno",
+    "Cea Bermúdez",
+    "Eloy Gonzalo",
+    "Andrés Mellado",
+    "Espronceda"
+    ],
+  "Madrid-Fuencarral-El Pardo":[
+    "Peñagrande",
+    "Virgen de Begoña",
+    "Fuencarral",
+    "Las Tablas",
+    "Montecarmelo",
+    "Mirasierra",
+    "El Pardo",
+    "Ciudad de los Periodistas",
+    "Monforte de Lemos",
+    "Pilar",
+    "Fuentelarreina"
+    ],
+  "Madrid-Carabanchel":[
+    "Puerta Bonita",
+    "Guayaba",
+    "Buenavista",
+    "Carabanchel Alto",
+    "Abrantes",
+    "Comillas",
+    "Opañel",
+    "Antonio Leyva",
+    "San Isidro",
+    "General Ricardos",
+    "Vista Alegre"
+    ],
+  "Madrid-Usera":[
+    "Orcasitas",
+    "Orcasur",
+    "San Fermín",
+    "Almendrales",
+    "Las Calesas",
+    "Zofío"
+    ],
+  "Madrid-Puente de Vallecas":[
+    "Entrevías",
+    "Campo de la Paloma",
+    "Portazgo",
+    "Peña Prieta",
+    "Pozo de Tío Raimundo",
+    "San Diego",
+    "Martínez de la Riva",
+    "Alcalá de Guadaira",
+    "Rafael Alberti",
+    "Federica Montseny",
+    "Numancia",
+    "Ángela Uriarte"
+    ],
+  "Madrid-Moratalaz":[
+    "Pavones",
+    "Vandel",
+    "Vinateros - Torito",
+    "Media Legua"
+    ],
+  "Madrid-Ciudad Lineal":[
+    "Daroca",
+    "La Elipa",
+    "Vicente Muzas",
+    "Jazmín",
+    "Doctor Cirajas",
+    "Gandhi",
+    "García Noblejas",
+    "Estrecho de Corea",
+    "Canal de Panamá"
+    ],
+  "Madrid-Hortaleza":[
+    "Silvano",
+    "Monovar",
+    "Mar Báltico",
+    "Benita de Ávila",
+    "Sanchinarro",
+    "Virgen del Cortijo"
+    ],
+  "Madrid-Villaverde":[
+    "San Andrés",
+    "Alcocer",
+    "San Cristóbal",
+    "Butarque",
+    "El Espinillo",
+    "Los Rosales",
+    "Los Ángeles"
+    ],
+  "Madrid-Villa de Vallecas":[
+    "Ensanche Vallecas",
+    "Santa Eugenia",
+    "Villa Vallecas"
+    ],
+  "Madrid-Vicálvaro":[
+    "Vicálvaro - Artilleros",
+    "Valdebernardo",
+    "Vicálvaro - Villablanca",
+    "Valderribas"
+    ],
+  "Madrid-San Blas - Canillejas":[
+    "Alpes",
+    "Aquitania",
+    "Rejas",
+    "Canillejas",
+    "Quinta de los Molinos",
+    "Simancas"
+    ],
+  "Madrid-Barajas":[
+    "Alameda de Osuna",
+    "Barajas"
+    ],
+  "Majadahonda":[
+    "Majadahonda",
+    "Valle de la Oliva"
+    ],
+  "Móstoles":[
+    "Alcalde Bartolomé González",
+    "Barcelona",
+    "Dos de Mayo",
+    "Doctor Luengo Rodríguez",
+    "El Soto",
+    "Felipe II",
+    "La Princesa",
+    "Parque Coimbra",
+    "Presentación Sabio"
+    ],
+  "Parla":[
+    "Isabel II",
+    "Las Américas",
+    "Pintores",
+    "San Blas"
+    ],
+  "Pinto":[
+    "Parque Europa",
+    "Pinto"
+    ],
+  "Pozuelo de Alarcón":[
+    "Pozuelo - Estación",
+    "Pozuelo - Somosaguas",
+    "San Juan de la Cruz"
+    ],
+  "Rivas-Vaciamadrid":[
+    "Rivas - 1º de Mayo",
+    "Rivas - La Paz",
+    "Rivas - Santa Mónica"
+    ],
+  "San Fernando de Henares":[
+    "Los Alperchines",
+    "San Fernando"
+    ],
+  "San Sebastián de los Reyes":[
+    "Dehesa Vieja",
+    "Reyes Católicos",
+    "Rosa Luxemburgo",
+    "V Centenario"
+    ],
+  "Torrejón de Ardoz":[
+    "Brújula",
+    "El Juncal",
+    "La Plata",
+    "La Veredilla",
+    "Las Fronteras",
+    "Los Fresnos"
+    ],
+  "Tres Cantos":[
+    "Sector Embarcaciones",
+    "Sector Oficios"
+    ],
+  "Valdemoro":[
+    "El Restón",
+    "Valdemoro"
+    ]
 }
