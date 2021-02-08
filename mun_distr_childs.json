@@ -12,8 +12,103 @@
     "Reyes Magos",
     "Virgen del Val"
     ],
+  "Alcobendas": [
+    "Alcobendas - Chopera",
+    "La Moraleja",
+    "Marqués de la Valdavia",
+    "Miraflores",
+    "Valdelasfuentes"
+    ],
+  "Alcorcón": [
+    "Aranjuez",
+    "Las Olivas"
+    ],
   "Aranjuez": [
     "Aranjuez",
     "Las Olivas"
-    ]
+    ],
+  "Arganda del Rey": [
+    "Arganda del Rey",
+    "Arganda - Felicidad"
+    ],
+  "Collado Villalba": [
+    "Collado Villalba Estación",
+    "Collado Villalba Pueblo",
+    "Sierra de Guadarrama"
+    ],
+  "Colmenar Viejo": [
+    "Colmenar Viejo Norte",
+    "Colmenar Viejo Sur"
+    ],
+  "Coslada": [
+    "Barrio del Puerto",
+    "Ciudad San Pablo",
+    "Coslada - Jaime Vera",
+    "Doctor Tamames",
+    "Valleaguado"
+    ],
+  "Fuenlabrada": [
+    "Alicante",
+    "Castilla la Nueva",
+    "Cuzco",
+    "El Naranjo",
+    "Francia",
+    "Panaderas",
+    "Parque Loranca"
+    ],
+  "Getafe": [
+    "El Bercial",
+    "El Greco",
+    "Getafe Norte",
+    "Juan de la Cierva",
+    "Las Ciudades",
+    "Las Margaritas",
+    "Perales del Río",
+    "Sánchez Morate",
+    "Sector III"
+    ],
+  "Las Rozas de Madrid": [
+    "La Marazuela",
+    "Las Matas",
+    "Las Rozas",
+    "Monterrozas"
+    ],
+  "Leganés": [
+    "Europa",
+    "Huerta de Los Frailes",
+    "Leganés Norte",
+    "Los Pedroches",
+    "María Jesús Hereza",
+    "María Montessori",
+    "María Curie",
+    "Mendiguchía Carriche",
+    "Palomares",
+    "Pizarro"
+    ],
+  "Madrid-Centro":[
+    "Palacio",
+    "Embajadores",
+    "Cortes",
+    "Justicia",
+    "Universidad",
+    "Sol"
+    ],
+  "Madrid-Arganzuela":[
+    "Imperial",
+    "Las Acacias",
+    "La Chopera",
+    "Legazpi",
+    "Las Delicias",
+    "Palos de Moguer",
+    "Atocha"
+    ],
+  "Madrid-Retiro":[
+    "Pacífico",
+    "Adelfas",
+    "La Estrella",
+    "Ibiza",
+    "Los Jerónimos",
+    "Niño Jesús"
+  ]
+
 }
