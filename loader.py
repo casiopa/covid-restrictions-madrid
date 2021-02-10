@@ -2,6 +2,7 @@ import urllib.request
 import json
 import ssl
 import sqlite3
+from datetime import datetime
 
 # Ignore SSL certificate errors
 ctx = ssl.create_default_context()
@@ -38,14 +39,37 @@ cur.execute('''CREATE TABLE MunDistr (id INTEGER PRIMARY KEY, name TEXT UNIQUE,
             cases_14d INTEGER, cases_total INTEGER, date TEXT,
             restricted BOOL)''')
 
-# Temporal way to get the last information. I should write a function to analyse
-# the last date data.
-date_chosen = input("Enter date of data:")
-if len(date_chosen) < 1 : date_chosen = '2021/02/02 11:07:00'
+# Search the last date in json_tia_zbs
+format = "%Y/%m/%d %H:%M:%S"
+ldatetime = list()
+for zbs in json_tia_zbs['data']:
+    if datetime.strptime(zbs['fecha_informe'], format) not in ldatetime :
+        ldatetime.append(datetime.strptime(zbs['fecha_informe'], format))
+
+last_date_zbs = None
+for datetime in ldatetime :
+    if last_date_zbs is None or datetime > last_date_zbs : last_date_zbs = datetime
+
+last_date_zbs = str(last_date_zbs).replace('-','/')
+#print(last_date_zbs)
+
+# Search the last date in json_tia_mun_distr
+ldatetime = list()
+for mun_distr in json_tia_mun_distr['data']:
+    if datetime.strptime(mun_distr['fecha_informe'], format) not in ldatetime :
+        ldatetime.append(datetime.strptime(mun_distr['fecha_informe'], format))
+
+last_date_mun_distr = None
+for datetime in ldatetime :
+    if last_date_mun_distr is None or datetime > last_date_mun_distr : last_date_mun_distr = datetime
+
+last_date_mun_distr = str(last_date_mun_distr).replace('-','/')
+#print(last_date_mun_distr)
+
 
 # store info for the health areas
 for zbs in json_tia_zbs['data']:
-    if zbs['fecha_informe'] == date_chosen :
+    if zbs['fecha_informe'] == last_date_zbs :
         name = zbs['zona_basica_salud']
         geometry_code = zbs['codigo_geometria']
 
@@ -68,12 +92,12 @@ for zbs in json_tia_zbs['data']:
 
         cur.execute('''INSERT OR IGNORE INTO ZBS (name, geometry_code,
                 tia_14d, tia_total, cases_14d, cases_total, date) VALUES (?,?,?,?,?,?,?)''',
-                (name, geometry_code, tia_14d, tia_total, cases_14d, cases_total, date_chosen))
+                (name, geometry_code, tia_14d, tia_total, cases_14d, cases_total, last_date_zbs))
         conn.commit()
 
 # store info for the political areas
 for mun_distr in json_tia_mun_distr['data']:
-    if mun_distr['fecha_informe'] == date_chosen :
+    if mun_distr['fecha_informe'] == last_date_mun_distr :
         name = mun_distr['municipio_distrito']
         geometry_code = mun_distr['codigo_geometria']
 
@@ -96,10 +120,8 @@ for mun_distr in json_tia_mun_distr['data']:
 
         cur.execute('''INSERT OR IGNORE INTO MunDistr (name, geometry_code,
                 tia_14d, tia_total, cases_14d, cases_total, date) VALUES (?,?,?,?,?,?,?)''',
-                (name, geometry_code, tia_14d, tia_total, cases_14d, cases_total, date_chosen))
+                (name, geometry_code, tia_14d, tia_total, cases_14d, cases_total, last_date_mun_distr))
         conn.commit()
 
 
 cur.close()
-#print(json_tia_zbs)
-#print(json_tia_municipios)
